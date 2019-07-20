@@ -15,7 +15,7 @@ const dr = '/+1-541-754-3010 156 Alphand_St. <J Steeve>\n 133, Green, Rd. <E Kus
 
 const makeTestCase = (param, expected, fn) => ({
   param,
-  actual: fn(param),
+  actual: fn(dr, param),
   expected
 })
 describe('Phone-directory', () => {
