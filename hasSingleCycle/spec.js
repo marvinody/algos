@@ -3,7 +3,7 @@
 
 const program = require("./index");
 const chai = require("chai");
-describe.only('Has Single Cycle (jumps)', () => {
+describe('Has Single Cycle (jumps)', () => {
 
   it('Test Case #1', function () {
     chai.expect(program.hasSingleCycle([2, 2, -1])).to.deep.equal(true);
