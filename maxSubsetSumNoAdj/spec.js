@@ -3,7 +3,7 @@
 
 const program = require('./index');
 const chai = require('chai');
-describe.only('Max Subset Sum (No Adj.)', () => {
+describe('Max Subset Sum (No Adj.)', () => {
   it('Test Case #1', function () {
     chai.expect(program.maxSubsetSumNoAdjacent([])).to.deep.equal(0);
   });

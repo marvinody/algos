@@ -3,7 +3,7 @@
 
 const program = require("./index");
 const chai = require("chai");
-describe.only('Number of Ways to Make Change', () => {
+describe('Number of Ways to Make Change', () => {
 
   it('Test Case #1', function () {
     chai.expect(program.numberOfWaysToMakeChange(0, [2, 3, 4, 7])).to.deep.equal(1);
