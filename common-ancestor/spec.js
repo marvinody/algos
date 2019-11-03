@@ -52,7 +52,7 @@ ancestralTrees.V.addAsAncestor([
   ancestralTrees.Y,
 ]);
 ancestralTrees.X.addAsAncestor([ancestralTrees.Z]);
-describe.only('Youngest Common Ancestor', () => {
+describe('Youngest Common Ancestor', () => {
 
   it('Test Case #1', function () {
     const yca = program.getYoungestCommonAncestor(
