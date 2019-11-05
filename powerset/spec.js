@@ -3,7 +3,7 @@
 
 const program = require('./index');
 const chai = require('chai');
-describe.only('Powerset', () => {
+describe('Powerset', () => {
 
   function sortAndStringify(array) {
     return array.sort((a, b) => a - b).join(',');
